@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Title>Core library</Title>
+    <Description>Extensions asp.net core</Description>
+    <Copyright>ThanhVu</Copyright>
+    <AssemblyVersion>1.0.0</AssemblyVersion>
+    <FileVersion>1.0.0</FileVersion>
+    <AssemblyName>NetCore.Extensions.Core</AssemblyName>
+    <RootNamespace>NetCore.Extensions.Core</RootNamespace>
+    <PackageId>NetCore.Extensions.Core</PackageId>
+    <Authors>NetCore.Extensions.Core</Authors>
+    <PackageProjectUrl>https://github.com/vuthanh86/Core.Extensions</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/vuthanh86/Core.Extensions</RepositoryUrl>
+    <Company>NetCore.Extensions.Core</Company>
+    <Product>NetCore.Extensions.Core</Product>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.9.2" />
+    <PackageReference Include="DogStatsD-CSharp-Client" Version="3.3.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Hosting.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="2.2.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="2.2.4" />    
+    <PackageReference Include="StackExchange.Redis.StrongName" Version="1.2.7-alpha-00002" />
+    <PackageReference Include="System.Xml.XmlSerializer" Version="4.3.0" />
+    <PackageReference Include="Z.EntityFramework.Plus.EFCore" Version="2.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
+</Project>
