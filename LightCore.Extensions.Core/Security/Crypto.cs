@@ -5,7 +5,7 @@ using System.Security.Cryptography;
 namespace NetCore.Extensions.Core.Security
 {
     /// <summary>
-    /// https://aspnetidentity.codeplex.com/SourceControl/latest#src/Microsoft.AspNet.Identity.NetCore.Extensions.Core/Crypto.cs
+    /// https://aspnetidentity.codeplex.com/SourceControl/latest#src/Microsoft.AspNet.Identity.LightCore.Extensions.Core/Crypto.cs
     /// </summary>
     public static class Crypto
     {

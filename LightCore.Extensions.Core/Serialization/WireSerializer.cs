@@ -4,13 +4,13 @@
 //using System.IO;
 //using System.Linq;
 //using System.Reflection;
-//using CMS.NetCore.Extensions.Core.Extensions;
+//using CMS.LightCore.Extensions.Core.Extensions;
 //using Wire;
 //using Wire.Extensions;
 //using Wire.SerializerFactories;
 //using Wire.ValueSerializers;
 
-//namespace CMS.NetCore.Extensions.Core.Serialization
+//namespace CMS.LightCore.Extensions.Core.Serialization
 //{
 //    public class WireSerializer : ISerializer
 //    {
